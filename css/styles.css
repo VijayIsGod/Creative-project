@@ -1,3 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.flights{
+    border: 2px solid black;
+    margin: 30px 100px;
+
+}
+.date-time-duration{
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+.date, .time, .duration{
+    text-align: center;
+    /*height: 120px;*/
+    /*width: 31%;*/
+
+    border: 1px solid black;
+    margin: 1.5%;
+}
+
+.flight{
+    justify-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto; /*auto property aligns .flight in the center*/
+}
+
+
+
+
+
+
+
+
+
 
 
 
