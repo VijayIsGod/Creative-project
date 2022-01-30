@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.footer nav{
+    margin-bottom: 0;
+}
+.footer nav a{
+    font-family: sans-serif;
+}
