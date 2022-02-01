@@ -1,17 +1,37 @@
 *{
     box-sizing: border-box;
 }
+
+.flight-list-page{
+    background-image: url("../images/homepageBackground.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+.announcement{
+    width:88%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px auto;
+
+}
+
 .london{
     background-image: url("../images/places/london-aerial-cityscape-river-thames_1.jpg");
     background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
+
 .tokyo{
     background-image: url("../images/places/tokyo.webp");
     background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
+
 .delhi{
     background-image: url("../images/places/new-delhi.jpg");
     background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
 
 .flights{
@@ -64,6 +84,88 @@
     margin: 0 20px;
 }
 
+
+.flight-list{
+    margin: 0 auto;
+
+}
+
+@media only screen and (min-width: 1000px)  {
+    .flight-list{
+        width: 90vw;
+        display: flex;
+    }
+}
+
+.flight-list-item{
+
+    height: 450px;
+    width: 85%;
+    border: 2px solid black; /*todo:delete*/
+    margin: 40px auto;
+    /*text-align: center;*/
+
+    font-family: "American Typewriter", serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+@media only screen and (min-width: 1000px)  {
+    .flight-list-item{
+        width: 31%;
+    }
+}
+.flight-list-item > a{
+    display: block;
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.actions{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+.actions a{
+    color: black;
+}
+
+.flight-list-item{
+    background-color: lightgray;
+}
+
+.to-delhi > .background-img{
+    background-image: url("../images/places/new-delhi.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+
+}
+
+.to-delhi > .background-img{
+    background-image: url("../images/places/new-delhi.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+
+}
+.to-tokyo > .background-img{
+    background-image: url("../images/places/tokyo.webp");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+
+}
+
+.to-london > .background-img{
+    background-image: url("../images/places/london-aerial-cityscape-river-thames_1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+
+}
 
 
 
