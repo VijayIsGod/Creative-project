@@ -229,3 +229,8 @@
 .footer nav a{
     font-family: sans-serif;
 }
+
+.footer nav p{
+    position:relative;
+    right:0;
+}
