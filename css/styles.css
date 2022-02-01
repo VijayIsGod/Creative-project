@@ -1,12 +1,32 @@
 *{
     box-sizing: border-box;
 }
+.london{
+    background-image: url("../images/places/london-aerial-cityscape-river-thames_1.jpg");
+    background-size: 100vw 100vh;
+}
+.tokyo{
+    background-image: url("../images/places/tokyo.webp");
+    background-size: 100vw 100vh;
+}
+.delhi{
+    background-image: url("../images/places/new-delhi.jpg");
+    background-size: 100vw 100vh;
+}
 
 .flights{
     border: 2px solid black;
-    margin: 30px 100px;
-
+    margin: 10px;
+    background-color: lightyellow;
 }
+@media only screen and (min-width: 1000px)  {
+    .flights{
+        padding: 10px;
+        border: 2px solid black;
+        margin: 30px 100px;
+    }
+}
+
 .date-time-duration{
     display: flex;
 
@@ -19,7 +39,7 @@
     /*height: 120px;*/
     /*width: 31%;*/
 
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 1.5%;
 }
 
@@ -28,10 +48,21 @@
     display: flex;
     justify-content: space-evenly;
     width: 90%;
+    height: 80px;
     border: 1px solid black;
-    margin: 0 auto; /*auto property aligns .flight in the center*/
+    margin: 10px auto; /*'auto' aligns .flight in the center*/
 }
 
+.amenities{
+    margin: 5px;
+}
+
+.from-to{
+    display: flex;
+}
+.from-to div{
+    margin: 0 20px;
+}
 
 
 
