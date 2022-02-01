@@ -9,10 +9,12 @@
 }
 
 .announcement{
+    background-color: lightgray;
     width:88%;
     border: 2px solid black;
     padding: 10px;
     margin: 20px auto;
+    text-align: center;
 
 }
 
